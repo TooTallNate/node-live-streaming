@@ -1,0 +1,12 @@
+{
+  "name": "live-streaming",
+  "description": "HTTP Live Streaming, connect\/stack layer.",
+  "version": "0.0.1",
+  "author": "Nathan Rajlich <nathan@tootallnate.net>",
+  "keywords": ["http", "live", "streaming", "apple", "iPhone", "iOS"],
+  "main": "./live-streaming.js",
+  "scripts": {
+    "preinstall": "make --directory=segmenter"
+  },
+  "engines": { "node": ">= 0.3.0" }
+}
